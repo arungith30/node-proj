@@ -15,8 +15,7 @@ try{
     console.log("successfully connected",result);
 }catch(err){
     console.log(err);
-}
-}
+}}
 createConnection();
 app.get("/",(request,response)=>{
 response.send("Welcome to my node app");
