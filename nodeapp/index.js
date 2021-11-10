@@ -5,7 +5,7 @@ const app=express();
 const PORT=process.env.PORT;
 
 async function createConnection(){
-const MONGO_URL=process.env.mongo_uri
+const MONGO_URL=process.env.mongo_uri 
 const client =new MongoClient(MONGO_URL);
 
 try{
